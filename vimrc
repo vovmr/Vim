@@ -1,7 +1,4 @@
-inoremap {  {}<Left>
 inoremap {<CR>  {<CR>}<Esc>O
-inoremap {{  {
-inoremap {}  {}
 cd codeforces
 
 autocmd filetype cpp nmap <F1> :w<CR>:!g++ -O2 -std=c++17 -Wall -Wextra % -o %<<CR>
