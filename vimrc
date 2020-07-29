@@ -1,8 +1,8 @@
 cd codeforces
 inoremap {<CR>  {<CR>}<Esc>O
 
-autocmd filetype cpp nnoremap <F1> :w<CR>:!g++ -O2 -std=c++17 -Wall -Wextra % -o %<<CR>
-autocmd filetype cpp inoremap <F1> <Esc><F1>
+autocmd filetype cpp nnoremap <F1> :w <bar> !g++ -O2 -std=c++17 -Wall -Wextra % -o %<<CR>
+autocmd filetype cpp nnoremap <F5> :w <bar> !g++ -O2 -std=c++17 -Wall -Wextra % -o %< -DDEBUG -g<CR>
 autocmd filetype cpp nnoremap <F2> :!%<<CR>
 nmap <C-a> ggVG
 nmap <C-c> ggVG"*y
