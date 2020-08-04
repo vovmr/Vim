@@ -4,6 +4,7 @@ set rtp+=C:/Users/Влад/vimfiles/bundle/Vundle.vim/
 call vundle#begin('C:/Users/Влад/vimfiles/bundle/')
 
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'jiangmiao/auto-pairs'
 Plugin 'bfrg/vim-cpp-modern'
 
 call vundle#end()
@@ -34,3 +35,4 @@ set background=dark
 
 nnoremap cpp :-1read $HOME\codeforces\template.cpp<CR>
 nnoremap dbgcpp :-1read $HOME\codeforces\debug.cpp<CR>
+
